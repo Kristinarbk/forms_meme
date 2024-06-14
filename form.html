@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html land="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href=""/>
+    <title> Fill the form </title>
+  </head>
+  <body>
+    <h1>Форма обратной связи</h1>
+    <div>
+      <p> Контактная информация</p>
+      <form action="" method="get" class="form-feedback">
+      <label>Имя<input type="text" required placeholder="Кристина" name="firstName"></label>
+      <div> 
+        <label>Фамилия<input type="text" required placeholder="Рыбак" name="lastName"></label>
+      </div>
+    <div>
+      <label>Пол 
+        <input type="radio" name="sex" value="female"> женский 
+        <input type="radio" name="sex" value="male">мужской
+      </label>
+    </div>
+     <div>
+      <label>E-mail
+        <input type="email" name="email"/>
+      </label>
+    </div>
+    <div>
+    <label>Telegram<input type="text" name="telegram"></label>
+    </div>
+   <div>
+    <p>Оставьте ваш отзыв</p>
+     <textarea name="feedback" rows = 3> </textarea>     
+   </div>
+    <label>
+      <input type="checkbox" class="agreement">Согласие на обработку персональных данных
+    </label>
+   <div>
+    <button type="submit" class="button_save">Сохранить</button>
+  </div>
+  </form>
+</body>
+</html>
